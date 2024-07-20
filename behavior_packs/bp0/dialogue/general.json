@@ -1,0 +1,20 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [],
+                        "name": "Ok"
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"general.npc.name.1"}]},
+                "on_close_commands": ["/scoreboard players set @initiator intro_message 1"],
+                "on_open_commands": [],
+                "scene_tag": "teleport_manager",
+                "text": {"rawtext":[{"translate":"general.1","with":["\n\n","\n\n","\uE108","\n\n"]}]}
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+# Add NPC locations below to auto generate reload_npc_dialogue.mcfunction.
+
+# SceneName X Y Z
+
+# General
+teleport_manager 41 71 -606
+
+# NPCs in Agency
+agency_reception 84 69 -563
+agency_guide_1 95 69 -566
+agency_guide_2 84 69 -554
+agency_passmaster 74 69 -558
+
+# Unit 2
+unit_two_lesson_one 28 69 -527
+unit_two_lesson_two 28 69 -525
+unit_two_lesson_three 28 69 -523
+
+# Unit 3
+unit_three_lesson_one 28 69 -531
+unit_three_lesson_two 28 69 -533
+unit_three_lesson_three 28 69 -535
+
+# Unit 4
+unit_four_lesson_one -33 69 -567
+unit_four_lesson_two -37 69 -575
+unit_four_lesson_three -49 69 -584
+
+
+# Unit 5
+unit_five_lesson_one 16 80 -411
+unit_five_lesson_two 6 83 -414
+unit_five_lesson_three 6 83 -427
+
+
+# Coding Challenges
+hydropower 42 80 -372
+farm 37 70 -453
+forest -52 65 -512
+flood 119 64 -507

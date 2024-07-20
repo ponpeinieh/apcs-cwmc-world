@@ -1,0 +1,64 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/unit_four_lesson_one"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.1"}]}
+                    },
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/unit_four_lesson_one_b"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.2"}]}
+                    },
+                    {
+                        "commands": [
+                            " /execute @initiator ~ ~ ~ function npcs/unit_four_lesson_one_reset"
+                        ],
+                        "name": {"rawtext":[{"translate":"unit4.button.1"}]}
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"unit4.npc.name.1"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "unit_four_lesson_one",
+                "text": {"rawtext":[{"translate":"unit4.text.1","with":["\n\n","\n\n"]}]}
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/unit_four_lesson_two"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.1"}]}
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"unit4.npc.name.2"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "unit_four_lesson_two",
+                "text": {"rawtext":[{"translate":"unit4.text.2","with":["\n","\n"]}]}
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/unit_four_lesson_three"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.1"}]}
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"unit4.npc.name.3"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "unit_four_lesson_three",
+                "text": {"rawtext":[{"translate":"unit4.text.3","with":["\n","\n","\n"]}]}
+            }
+        ]
+    }
+}

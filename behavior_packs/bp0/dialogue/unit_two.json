@@ -1,0 +1,64 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&noRunOnX=1#tutorial:github:ponpeinieh/apcs-mc-makecode/computing/unit-2/lesson-1"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.1"}]}
+                    },
+                    {
+                        "commands": [
+                            "/give @p carpet 64"
+                        ],
+                        "name": {"rawtext":[{"translate":"road.button.1"}]}
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"road.npc.name.1"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "unit_two_lesson_one",
+                "text": {"rawtext":[{"translate":"road.1","with":["\n","\n"]}]}
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/unit_two_lesson_two"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.1"}]}
+                    },
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/unit_two_lesson_two_blocks"
+                        ],
+                        "name": {"rawtext":[{"translate":"road.button.2"}]}
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"road.npc.name.2"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "unit_two_lesson_two",
+                "text": {"rawtext":[{"translate":"road.2","with":["\n"]}]}
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/unit_two_lesson_three"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.1"}]}
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"road.npc.name.3"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "unit_two_lesson_three",
+                "text": {"rawtext":[{"translate":"road.3","with":["\n"]}]}
+            }
+        ]
+    }
+}

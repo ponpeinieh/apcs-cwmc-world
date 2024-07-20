@@ -1,0 +1,67 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/hydropower"
+                        ],
+                        "name": "Start"
+                    }
+                ],
+                "npc_name": "Hydropower",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "hydropower",
+                "text": "This land has been designated for a hydropower dam by order of The Agency, An expansion of these premises is needed to provide needed power to the city\n\nFor this lesson, you need to create a working dam, and you do not have the code to create it, Use your knowledge from Units 1-5 and explore other functionality in MakeCode to create your own hydropower dam, Think about how to block the water flow and use Redstone to turn it on and off. Good luck, the Agency needs clean energy"
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/farm"
+                        ],
+                        "name": "Start"
+                    }
+                ],
+                "npc_name": "Feed the world",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "farm",
+                "text": "This land has been designated Food Development and Supply by order of The Agency, An expansion of these premises is needed.\n\nFor this lesson, you need to create an agricultural dome, and you do not have the code to create it. Use your knowledge from Unite 1-5 and explore other functionality in MakeCode to create your own food supply system as part of the needed Agency expansion, The Agency needs your help, Don't let us down."
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/flood"
+                        ],
+                        "name": "Start"
+                    }
+                ],
+                "npc_name": "The Flood",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "flood",
+                "text": "Notification from The Agency this area is known to be a flood risk due to rising tides, This is a Challenge Lesson.\n\nUsing the skills you have learned in My Minecraft Trials, code a flood on the beach, The higher the flood, the farther back it will flow and the more\ndamage it will cause, Remember, you will have to code any clean up also."
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/forest"
+                        ],
+                        "name": "Start"
+                    }
+                ],
+                "npc_name": "Save the Trees",
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "forest",
+                "text": "This land has been designated a sustainable forestry area by order of The Agency.\n\nUsing the skills learned in Computing With Minecraft, code a sustainable forestry system where a tree is cut down and on is replanted in its place, Try to maintain a balance and do not cut down more than you plant, Remember, trees take time to grow, Here's an Agency hint, use loops for efficiency."
+            }
+        ]
+    }
+}

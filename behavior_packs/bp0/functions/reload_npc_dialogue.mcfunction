@@ -1,0 +1,23 @@
+# Do not edit - Automatically generated from npc.txt
+
+dialogue change @e[type=npc, r=1, c=1, x=41, y=71, z=-606] teleport_manager
+dialogue change @e[type=npc, r=1, c=1, x=84, y=69, z=-563] agency_reception
+dialogue change @e[type=npc, r=1, c=1, x=95, y=69, z=-566] agency_guide_1
+dialogue change @e[type=npc, r=1, c=1, x=84, y=69, z=-554] agency_guide_2
+dialogue change @e[type=npc, r=1, c=1, x=74, y=69, z=-558] agency_passmaster
+dialogue change @e[type=npc, r=1, c=1, x=28, y=69, z=-527] unit_two_lesson_one
+dialogue change @e[type=npc, r=1, c=1, x=28, y=69, z=-525] unit_two_lesson_two
+dialogue change @e[type=npc, r=1, c=1, x=28, y=69, z=-523] unit_two_lesson_three
+dialogue change @e[type=npc, r=1, c=1, x=28, y=69, z=-531] unit_three_lesson_one
+dialogue change @e[type=npc, r=1, c=1, x=28, y=69, z=-533] unit_three_lesson_two
+dialogue change @e[type=npc, r=1, c=1, x=28, y=69, z=-535] unit_three_lesson_three
+dialogue change @e[type=npc, r=1, c=1, x=-33, y=69, z=-567] unit_four_lesson_one
+dialogue change @e[type=npc, r=2, c=1, x=-37, y=69, z=-575] unit_four_lesson_two
+dialogue change @e[type=npc, r=1, c=1, x=-49, y=69, z=-584] unit_four_lesson_three
+dialogue change @e[type=npc, r=1, c=1, x=16, y=80, z=-411] unit_five_lesson_one
+dialogue change @e[type=npc, r=1, c=1, x=6, y=83, z=-414] unit_five_lesson_two
+dialogue change @e[type=npc, r=1, c=1, x=6, y=83, z=-427] unit_five_lesson_three
+dialogue change @e[type=npc, r=1, c=1, x=42, y=80, z=-372] hydropower
+dialogue change @e[type=npc, r=1, c=1, x=37, y=70, z=-453] farm
+dialogue change @e[type=npc, r=1, c=1, x=-52, y=65, z=-512] forest
+dialogue change @e[type=npc, r=1, c=1, x=119, y=64, z=-507] flood

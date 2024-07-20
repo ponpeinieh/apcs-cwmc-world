@@ -1,0 +1,66 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/agency_reception"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.1"}]}
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"agent.npc.name.1"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "agency_reception",
+                "text": {"rawtext":[{"translate":"agency.1","with":["\n\n"]}]}
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/agency_guide_1"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.1"}]}
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"agent.npc.name.2"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "agency_guide_1",
+                "text": {"rawtext":[{"translate":"agency.2","with":["\n\n"]}]}
+            },
+            {
+                "buttons": [],
+                "npc_name": {"rawtext":[{"translate":"agent.npc.name.3"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "agency_passmaster",
+                "text": {"rawtext":[{"translate":"agency.3","with":["\n\n"]}]}
+            },
+            {
+                "buttons": [
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/agency_guide_2"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.1"}]}
+                    },
+                    {
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function npcs/agency_guide_2b"
+                        ],
+                        "name": {"rawtext":[{"translate":"agency.button.2"}]}
+                    }
+                ],
+                "npc_name": {"rawtext":[{"translate":"agent.npc.name.2"}]},
+                "on_close_commands": [],
+                "on_open_commands": [],
+                "scene_tag": "agency_guide_2",
+                "text": {"rawtext":[{"translate":"agency.4","with":["\n\n","\n\n"]}]}
+            }
+        ]
+    }
+}
